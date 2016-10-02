@@ -100,7 +100,7 @@ void page0(int *page,PERSON *head)
 		//按下确认密码键
 		else if(mouse.x>220&&mouse.x<522&&mouse.y<184&&mouse.y>146&&mouse.but==1)
 		{
-			while(mouse.but)                            //模拟按键按下直到松开按键
+			while(mouse.but)                            //模拟按键按下 直到松开按键
 			{
 				which_pressed(&mouse);
 				setcolor(RED);
